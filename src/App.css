@@ -1,38 +1,184 @@
 .App {
-  text-align: center;
+  text-align: left;
+  background-color: #D6D0DB; 
+  padding:0% 15% 0% 15% 
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 521px;
   pointer-events: none;
+  width:442px;
+}
+.NavBar{
+  position: -webkit-sticky;
+  position:sticky;
+  top:0;
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  margin:auto 10px;
+  background-color: #D6D0DB;
+  height:45px;
+  
+}
+.NavBarText:hover{
+  text-decoration: underline;
+}
+.swal2-text {
+  font-family:'Inter';
+}
+.swal2-title {
+  font-family:'Inter';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.NavBarText{
+  position: -webkit-sticky;
+  position:sticky;
+  margin-top: 15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding-right:15%;
+color: #053225;
 }
+
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /*align-items: center;*/
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.InfoInformation{
+  display:flex;
+  flex-direction:column;
+}
+@media screen {
+  .Title{
+    font-style: normal;
+    font-family:'Playfair Display';
+    font-weight: 600px;
+    font-size: 50px;
+    line-height: 85px;
+    color: #053225;
+    display:flex;
+    align-items:left;
+  }
+  .SubTitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #053225;
+  }
+  
+}
+.MyImg{
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+  padding-left:5%
+}
+.OpenPage{
+  display:flex;
+  flex-direction:row;
+  padding-right:5%
+}
 .App-link {
   color: #61dafb;
 }
+.ProjTitle{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  color: #473335;
+}
+.ProjDesc{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #473335;
+}
+.Proj{
+  width: 411px;
+  height: 525px;
+  border: 6px solid #BC9FAA;
+ background-color:#D6D0DB; 
+  text-align:center;
+  align-items: center;
+}
+.ProjImg{
+  width: 328px;
+  height: 166px;
+}
+.ProjPage{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+ background-color: #D6D0DB; 
+}
+.ProjElements{
+  display:flex;
+  flex-direction:row;
+  padding: auto;
+  justify-content:space-around;
+  background-color:#D6D0DB;
+}
+.ProjBigTitle{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+  color: #053225;
+}
+.WholeApp{
+  background-color:#D6D0DB;
+}
+.ContactText{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #473335;
+  margin: 12px auto;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.ContactText:hover{
+  color:#053225;
+}
+.ContactItems{
+  display:flex;
+  flex-direction:row;
+  justify-items:space-between;
+}
+.ContactPage{
+  position: relative;
+  width: 1512px;
+  height: 800px;
+  background: #D6D0DB;
+}
+.ContactTitle{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  text-align:center;
+  padding-top:5%;
+  padding-bottom:10%;
+  color: #053225;
 }
