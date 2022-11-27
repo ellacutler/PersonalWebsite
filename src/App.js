@@ -5,10 +5,16 @@ import OpeningPage from "./OpeningPage"
 import ProjPage from './Proj';
 import ContactPage from './Contact';
 import NavBar from './NavBar';
+import WebFont from 'webfontloader';
+
 
 function App() {
+ 
   return (
     <div className = "WholeApp">
+      <head>
+        
+      </head>
       <NavBar />
       <OpeningPage />
       <ProjPage />
