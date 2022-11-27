@@ -11,10 +11,12 @@ import "animate.css";
 
 class IndvProj extends React.Component{
   
-  moreInformation =(title, desc) => () =>
+  moreInformation =(title, desc, ghlink) => () =>
   {
+   
   
     Swal.fire({
+      
       title: title,
       text:desc,
       showConfirmButton: false,
@@ -24,18 +26,24 @@ class IndvProj extends React.Component{
       },
       hideClass: {
         popup: 'animate__animated animate__fadeOut'
-     }})
+     },
+     
+      /* html: <a href= {link} >Here's a link to the GitHub Repository!</a>,*/  })
   }
   render(){ 
     return (
+      <div>
         <button 
-          onClick = {this.moreInformation(this.props.title, this.props.desc)}
+          onClick = {this.moreInformation(this.props.title, this.props.longdesc, this.props.link)}
           className = "Proj" >
             <h1 aria-labeledby= {this.props.title} className = "ProjTitle"> {this.props.title} </h1>
-            <img aria-labeledby= {this.props.imgdesc}  src="https://etc.usf.edu/presentations/extras/photo_frames/photo_frames/13/15/15-768H.png" className="ProjImg" alt="logo" />
+            <img aria-labeledby= {this.props.imgdesc}  src = {this.props.src} className="ProjImg" alt="logo" />
             <h3 className = "ProjDesc"> {this.props.desc} </h3>
-            
+            <a  tabindex = "0" className = "ProjLink" href = {this.props.link}> github repo</a>
         </button>
+       
+            
+      </div>
         );
   }
   
