@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React, {Component} from "react";
 import NavBar from './NavBar.js';
+import { Link } from 'react-router-dom';
 //import picture from 'public/Picture.png';
 
 
@@ -22,6 +23,7 @@ function OpeningPage() {
           <h1 className= "SubTitle">I’m interested in the intersections between social sciences + technology & accessible design 
 (placeholder)</h1>
 <h1 className= "SubTitle">I love the outdoors and finding more cafes in my hometown of Chicago, IL! </h1>
+<Link to= "/testing" className = "ContactText">learn more about me here!  </Link>
           
         </div>
         <div className= "IntroPicture"> 

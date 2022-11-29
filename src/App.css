@@ -208,3 +208,29 @@ color: #053225;
   margin: 12px auto;
   margin-bottom: 10px;
 }
+
+
+/* More About Me area */
+.MoreTitle{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 85px;
+  color: #053225;
+}
+.MoreThings{
+  display:flex;
+  flex-direction:row;
+  padding: auto;
+  justify-content:space-around;
+  background-color:#D6D0DB;
+}
+.MoreElement{
+  width: 500px;
+  height: 500px;
+}
+.MoreInfoPage{
+  background-color:#D6D0DB;
+}

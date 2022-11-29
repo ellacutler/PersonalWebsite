@@ -6,6 +6,8 @@ import ProjPage from './Proj';
 import ContactPage from './Contact';
 import NavBar from './NavBar';
 import WebFont from 'webfontloader';
+import MorePage from './More';
+
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
       </head>
       <NavBar />
       <OpeningPage />
+      
       <ProjPage />
       <ContactPage />
    </div>

@@ -22,7 +22,7 @@ class ProjPage extends React.Component{
                   longdesc = "Working for the TIILT Lab @ NU, made a timer using MicroPython" 
                   link = "https://github.com/ellacutler/Microbit-Light-Race-Python"
                   />
-                <IndvProj title = "In progress" desc = "a" />
+                
             </div>
         </div>
         );
@@ -31,3 +31,4 @@ class ProjPage extends React.Component{
 }
 
 export default ProjPage;
+// <IndvProj title = "In progress" desc = "a" />
