@@ -8,7 +8,7 @@ class ProjPage extends React.Component{
   render(){ 
     return (
         <div className = "ProjPage" name= "Projects" >
-            <h3 className = "ProjBigTitle"> My Projects </h3>
+            <h1 className = "ProjBigTitle"> My Projects </h1>
             <div className = "ProjElements"> 
                 <IndvProj 
                   title = "2048" 

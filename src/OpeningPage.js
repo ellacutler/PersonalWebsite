@@ -19,11 +19,11 @@ function OpeningPage() {
         <header className="OpenPage" >
         <div className="IntroInformation" >
           <h1 className= "Title"> Hi! My name is Ella. </h1>
-          <h1 className= "SubTitle">I'm a sophomore studying Computer Science + Sociology @ Northwestern University  </h1>
-          <h1 className= "SubTitle">I’m interested in the intersections between social sciences + technology & accessible design 
-(placeholder)</h1>
+          <h2 className= "SubTitle">I'm a sophomore studying Computer Science + Sociology @ Northwestern University  </h2>
+          <h2 className= "SubTitle">I’m interested in the intersections between social sciences + technology & accessible design 
+(placeholder)</h2>
 <h1 className= "SubTitle">I love the outdoors and finding more cafes in my hometown of Chicago, IL! </h1>
-<Link to= "/testing" className = "ContactText">learn more about me here!  </Link>
+<Link to= "/moreinfo" className = "ContactText">learn more about me here!  </Link>
           
         </div>
         <div className= "IntroPicture"> 

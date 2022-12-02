@@ -36,8 +36,11 @@ class IndvProj extends React.Component{
         <button 
           onClick = {this.moreInformation(this.props.title, this.props.longdesc, this.props.link)}
           className = "Proj" >
-            <h1 aria-labeledby= {this.props.title} className = "ProjTitle"> {this.props.title} </h1>
-            <img aria-labeledby= {this.props.imgdesc}  src = {this.props.src} className="ProjImg" alt="logo" />
+            <h2 aria-labeledby= {this.props.title} className = "ProjTitle"> {this.props.title} </h2>
+            <figure>
+                <img aria-labeledby= {this.props.imgdesc}  src = {this.props.src} className="ProjImg" alt="logo" />
+            </figure>
+            
             <h3 className = "ProjDesc"> {this.props.desc} </h3>
             <a  tabindex = "0" className = "ProjLink" href = {this.props.link}> github repo</a>
         </button>
