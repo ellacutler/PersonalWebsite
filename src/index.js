@@ -12,7 +12,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-          <Route exact path='/' exact element={<App/>} />
+          <Route exact path='/'  element={<App/>} />
           <Route exact path='/testing' element={<MorePage/>} />
       </Routes>
     </Router>

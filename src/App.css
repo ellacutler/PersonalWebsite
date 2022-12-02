@@ -183,8 +183,8 @@ color: #053225;
 }
 .ContactPage{
   position: relative;
-  width: 1512px;
-  height: 800px;
+  width: 100%;
+  height: 512pxSu;
   background: #D6D0DB;
 }
 .ContactTitle{
@@ -211,6 +211,7 @@ color: #053225;
 
 
 /* More About Me area */
+
 .MoreTitle{
   font-family: 'Playfair Display';
   font-style: normal;
@@ -223,14 +224,21 @@ color: #053225;
 .MoreThings{
   display:flex;
   flex-direction:row;
-  padding: auto;
+  padding-left: 15%;
+  padding-right:15%;
   justify-content:space-around;
   background-color:#D6D0DB;
 }
 .MoreElement{
-  width: 500px;
+  width: 1000px;
   height: 500px;
 }
 .MoreInfoPage{
   background-color:#D6D0DB;
+
+  padding-right:5%;
+  padding-left:5%;
+}
+.MoreInfoText{
+  padding-left:5%;
 }
